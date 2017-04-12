@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    opacity: .5;
+    color: #686c8b;
+    background-color: #f3f5f7;
+    background-image: url('../img/Maket_s_preimuschestvami.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.features__title
+{
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+
+    margin-bottom: 100px;
+
+    color: #3b3f6a;
+}
+
+.feature-item__title
+{
+    font-family: 'Arvo', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+
+    padding-right: 30px;
+    padding-left: 30px;
+
+    color: #3b3f6a;
+}
+
+.feature-item--with-image
+{
+    position: relative;
+
+    padding-top: 200px;
+}
+
+.feature-item--with-image::before
+{
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    content: '';
+    transform: translateX(-50%);
+
+    background-repeat: no-repeat;
+}
+
+.feature-item--with-image:first-child::before
+{
+    width: 184px;
+    height: 140px;
+
+    background-image: url('../img/feature-item--1.png');
+}
+
+.feature-item--with-image:nth-child(2)::before
+{
+    width: 112px;
+    height: 130px;
+
+    background-image: url('../img/feature-item--2.png');
+}
+
+.feature-item--with-image:nth-child(3)::before
+{
+    width: 161px;
+    height: 119px;
+
+    background-image: url('../img/feature-item--3.png');
+}
+
+.feature-item--with-image:last-child::before
+{
+    width: 171px;
+    height: 147px;
+
+    background-image: url('../img/feature-item--4.png');
+}
