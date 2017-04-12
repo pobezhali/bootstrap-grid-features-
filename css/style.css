@@ -5,12 +5,8 @@ body
     font-weight: 400;
     line-height: 30px;
 
-    opacity: .5;
     color: #686c8b;
     background-color: #f3f5f7;
-    background-image: url('../img/Maket_s_preimuschestvami.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
 }
 
 .text-center
